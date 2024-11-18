@@ -34,7 +34,13 @@ public class Main {
             JSONObject jsonResponse = new JSONObject(response.toString());
             JSONArray searchResult = jsonResponse.getJSONObject("query").getJSONArray("search");
 
-            System.out.println(searchResult);
+            System.out.println("Результаты поиска:");
+            for (int i = 0; i < searchResult.length(); i++) {
+                JSONObject article = searchResult.getJSONObject(i);
+                String title = article.getString("title");
+                System.out.println((i + 1) + ". " + title);
+            }
+
         }
     }
 
