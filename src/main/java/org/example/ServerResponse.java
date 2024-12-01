@@ -46,5 +46,4 @@ public class ServerResponse {
             System.out.println((i + 1) + ". " + title);
         }
     }
-
 }

@@ -5,17 +5,17 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        Query wiki_search = new Query();
-        wiki_search.getQuery();
+        Query wikiSearch = new Query();
+        wikiSearch.getQuery();
 
-        ServerResponse wiki_response = new ServerResponse();
-        wiki_response.serverRequest(wiki_search);
+        ServerResponse wikiResponse = new ServerResponse();
+        wikiResponse.serverRequest(wikiSearch);
 
-        wiki_response.parsing();
-        wiki_response.showResult();
+        wikiResponse.parsing();
+        wikiResponse.showResult();
 
         Article article = new Article();
-        article.openArticle(wiki_response.searchResult.length(), wiki_response.searchResult);
+        article.openArticle(wikiResponse.searchResult.length(), wikiResponse.searchResult);
     }
 
 }
