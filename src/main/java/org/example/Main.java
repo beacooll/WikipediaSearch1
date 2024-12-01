@@ -10,12 +10,12 @@ public class Main {
 
         ServerResponse wiki_response = new ServerResponse();
         wiki_response.serverRequest(wiki_search);
+
+        wiki_response.parsing();
         wiki_response.showResult();
 
-
-        System.out.println("Выбирите номер статьи");
-
-        }
+        Article article = new Article();
+        article.openArticle(wiki_response.searchResult.length(), wiki_response.searchResult);
     }
 
 }

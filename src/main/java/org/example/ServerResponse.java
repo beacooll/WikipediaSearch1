@@ -7,8 +7,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
-import org.json.JSONArray;
-import org.json.JSONObject;
+
 
 public class ServerResponse {
     String response;
@@ -29,7 +28,6 @@ public class ServerResponse {
                     line = in.readLine();
                 }
                 this.response = response.toString();
-                in.close();
             }
         }
         catch (IOException e) {

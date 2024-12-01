@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a527aae-2588-4087-9c78-09a7c1a5fe93" name="Changes" comment="почти готово">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ServerResponse.java" afterDir="false" />
+    <list default="true" id="6a527aae-2588-4087-9c78-09a7c1a5fe93" name="Changes" comment="точно почти готово">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Article.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Query.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ServerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ServerResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731924143414</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="точно почти готово">
+      <option name="closed" value="true" />
+      <created>1731927327303</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731927327303</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +134,7 @@
     <MESSAGE value="1" />
     <MESSAGE value="1]2===" />
     <MESSAGE value="почти готово" />
-    <option name="LAST_COMMIT_MESSAGE" value="почти готово" />
+    <MESSAGE value="точно почти готово" />
+    <option name="LAST_COMMIT_MESSAGE" value="точно почти готово" />
   </component>
 </project>
