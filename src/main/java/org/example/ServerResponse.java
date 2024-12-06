@@ -2,12 +2,10 @@ package org.example;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
-
 
 public class ServerResponse {
     String response;
@@ -34,10 +32,12 @@ public class ServerResponse {
             System.out.println("Произошла ошибка при выполнении запроса: " + e.getMessage());
         }
     }
+
     public void parsing(){
         this.jsonResponse = new JSONObject(this.response);
         this.searchResult = jsonResponse.getJSONObject("query").getJSONArray("search");
     }
+
     public void showResult(){
         System.out.println("Результаты поиска:");
         for (int i = 0; i < this.searchResult.length(); i++) {

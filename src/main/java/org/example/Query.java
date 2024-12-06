@@ -3,12 +3,12 @@ package org.example;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
 import java.net.*;
 import java.nio.charset.StandardCharsets;
 
 public class Query {
     URL url;
+
     public void getQuery(){
         try{
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -22,5 +22,4 @@ public class Query {
             System.out.println("Произошла ошибка при выполнении запроса: " + e.getMessage());
         }
     }
-
 }

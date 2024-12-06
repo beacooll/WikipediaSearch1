@@ -12,7 +12,6 @@ import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 
 public class Article {
-
     private int getArticleNumber(int maxArticles) throws IOException {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
             while (true) {
@@ -33,6 +32,7 @@ public class Article {
             return -1; // Return -1 to indicate an error.
         }
     }
+
     public void openArticle(int maxArticles, JSONArray searchResults) throws IOException {
         int numberArticle = getArticleNumber(maxArticles);
         String title = searchResults.getJSONObject(numberArticle - 1).getString("title");
